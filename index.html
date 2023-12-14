@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+  <link rel="stylesheet" href="estilo.css">
+  <title> Tp Final Parte 2</title>
+</head>
+
+<body>
+  <div class=" border container"> <!-- ES EL ELEMENTO PARA CONTENER TODO EL CONTENIDO -->
+    <h1>
+      <p class="text-secondary">#TP Final + Tecnologías Web</p>
+    </h1>
+    <h5>
+      <p class="text-secondary">Facultad de Artes (unlp)</p>
+    </h5>
+    <div class="btn-success-outline"> <!-- ESTE ELEMENTO ES UN BOTON -->
+      <label class="paper-btn margin btn-secondary-outline" for="modal-1">TOCA AQUÍ!</label>
+    </div>
+
+    <input class="modal-state" id="modal-1" type="checkbox">
+    <div class="modal" style="background-color: #bbcf82;">
+      <!-- Agregué el estilo "background-color" al elemento modal -->
+      <label class="modal-bg" for="modal-1"></label>
+      <div class="modal-body">
+
+        <label class="btn-close" for="modal-1">X</label>
+        <h4 class="modal-title" style="color: rgb(99, 99, 197);">Sobre mí</h4>
+        <!-- Agregué el estilo "color" al título modal -->
+        <h5 class="modal-subtitle">Me llamo Maximiliano Lucero</h5>
+        <p class="modal-text">Tengo 24 años y soy de la ciudad de Pehuajó. En mi tiempo libre me gusta jugar
+          videojuegos. :D</p>
+        <label for="modal-1" style="color: green;">cerrar</label> <!-- Agregué el estilo "color" al texto del label -->
+      </div>
+    </div>
+    <div class="btn-success-outline"> <!-- ESTE ELEMENTO ES UN BOTON -->
+      <label class="paper-btn margin btn-secondary-outline" for="modal-2">VER JUEGO!</label>
+    </div>
+
+    <input class="modal-state" id="modal-2" type="checkbox">
+    <div class="modal" style="background-color: #bbcf82;">
+      <!-- Agregué el estilo "background-color" al elemento modal -->
+      <label class="modal-bg" for="modal-2"></label>
+      <div class="modal-body">
+        <label class="btn-close" for="modal-2">X</label>
+        <iframe src="juego/index.html" frameborder="0" width="700" height="700"></iframe>
+        <label for="modal-2" style="color: rgb(33, 129, 33);">cerrar</label>
+        <!-- Agregué el estilo "color" al texto del label -->
+      </div>
+    </div>
+    
+    <div class="sm-12 md-4 col">
+      <div class="card custom-card" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="text-success">Comision 3</h4>
+          <h5 class="card-subtitle">
+            <details>
+              <summary>Profesores</summary>
+              <ul>
+                <li>David Deboian</li>
+                <li>Christian Silva</li>
+              </ul>
+            </details>
+          </h5>
+          <h5 class="card-subtitle">
+            <details>
+              <summary>Estudiante</summary>
+              <ul>
+                <li>Lucero Maximiliano</li>
+              </ul>
+            </details>
+          </h5>
+          <h5 class="card-subtitle">
+            <details>
+              <summary>Legajo</summary>
+              <ul>
+                <li>85172/4</li>
+              </ul>
+            </details>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="sm-12 md-4 col">
+        <div class="card" style="width: 20rem;">
+          <img src="img/r.png" alt="Card example image">
+
+          <div class="card-body">
+            <h4 class="card-title"> Romeo y Julieta!</h4>
+            <h5 class="card-subtitle"> William Shakespeare</h5>
+            <p class="card-text">"Romeo y Julieta" es una famosa tragedia escrita por William Shakespeare. La historia
+              se desarrolla en Verona, Italia, y sigue el romance trágico entre dos jóvenes amantes de familias rivales.
+
+              Romeo, perteneciente a la familia Montesco, y Julieta, de la familia Capuleto, se conocen en una fiesta y
+              se enamoran a primera vista. A pesar de la enemistad entre sus familias, deciden casarse en secreto con la
+              ayuda del fraile Lorenzo.
+
+              Sin embargo, los problemas comienzan cuando Romeo se ve involucrado en una pelea y mata al primo de
+              Julieta, Teobaldo. Como castigo, es desterrado de Verona. Julieta, desesperada por estar separada de su
+              esposo, busca ayuda en el fraile Lorenzo.
+
+              El fraile le da a Julieta una poción que la hará parecer muerta durante 42 horas. Planea enviarle un
+              mensaje a Romeo para que esté presente cuando ella despierte y puedan huir juntos. Pero el plan se
+              complica cuando la carta no llega a manos de Romeo.
+
+              Cuando Romeo se entera de la supuesta muerte de Julieta, regresa a Verona y se dirige a la tumba de los
+              Capuleto. Allí, encuentra a Paris, quien también está de luto por Julieta. Romeo lo mata y luego bebe un
+              veneno para unirse a su amada en la muerte.
+
+              Justo cuando Julieta despierta, encuentra a Romeo muerto a su lado. Devastada, se apuñala con el daga de
+              Romeo y también muere. La tragedia de su amor imposible conmueve a las familias Montesco y Capuleto,
+              quienes finalmente ponen fin a su enemistad.
+
+              La historia de "Romeo y Julieta" es un trágico recordatorio de cómo el odio y la rivalidad pueden destruir
+              el amor más puro y apasionado.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sm-12 md-4 col">
+      <div class="card" style="width: 20rem;">
+        <img src="img/POO.png" alt="Card example image">
+
+        <div class="card-body">
+          <h4 class="card-title"> POO en p5js!</h4>
+          <h5 class="card-subtitle">MiniJuego con POO orientado a la Aventura Gráfica</h5>
+          <p class="card-text">Este trabajo orientado a la historia de Romeo y Julieta, creado con clases. Objeto y
+            Evento.</p>
+          <fieldset class="form-group">
+            <legend>Sliders</legend>
+            <div class="form-group">
+              <label for="input-range">Note /10 :</label>
+              <input type="range" name="note" id="input-range" min="0" max="10">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="sm-12 md-4 col">
+      <div class="card" style="width: 20rem;">
+        <img src="img/e.png "alt="Card example image">
+
+        <div class="card-body">
+          <h4 class="card-title"> av + juego en p5js!</h4>
+          <h5 class="card-subtitle">MiniJuego con  la Aventura Gráfica</h5>
+          <p class="card-text"> Este trabajo consta con la historia de Romeo y Julieta, y con el MiniJuego de Romeo y
+            Julieta tratando de sobrevivir en el espacio.
+            Creado en en p5-js, reamando la aventura gráfica con clases y objetos e incorporando el mini-juego del TP#5
+            como una pantalla de la misma. </p>
+          <fieldset class="form-group">
+            <legend>Sliders</legend>
+            <div class="form-group">
+              <label for="input-range">Note /10 :</label>
+              <input type="range" name="note" id="input-range" min="0" max="10">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm-12 md-4 col">
+      <div class="card" style="width: 20rem;">
+        <img src="img/rym.png" alt="Card example image">
+
+        <div class="card-body">
+          <h4 class="card-title">Av Graph en java!</h4>
+          <h5 class="card-subtitle">Aventura Grafica de Romeo Julieta</h5>
+          <p class="card-text">Este trabajo habla de la historia de Romeo y Julieta, creado con Condicionales (if -
+            else).
+            Ciclos FOR. Eventos (mouse y/o teclado): modificación de variables.
+            Algunas funciones matemáticas: dist(), map(), random(); </p>
+          <fieldset class="form-group">
+            <legend>Sliders</legend>
+            <div class="form-group">
+              <label for="input-range">Note /10 :</label>
+              <input type="range" name="note" id="input-range" min="0" max="10">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

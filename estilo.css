@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.border container {
+    background-color: rgb(223, 156, 156);
+}
+
+.custom-card {
+    background-color: #e6e4e4;
+    color: #e67738;
+  }
+
+  .card-body {
+    background-color: #e6e4e4;
+
+  }
